@@ -1,0 +1,33 @@
+{
+  "name": "rspack-vue2",
+  "version": "1.0.0",
+  "description": "A learning of conversion from webpack 5 to rspack",
+  "main": "index.js",
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack serve"
+  },
+  "devDependencies": {
+    "@rspack/cli": "1.0.14",
+    "@rspack/core": "1.0.14",
+    "css-loader": "6.7.4",
+    "less": "4.1.3",
+    "less-loader": "11.1.4",
+    "vue": "2.7.14",
+    "vue-loader": "15.10.1",
+    "vue-style-loader": "4.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoMoneyToRaisePigs/rspack-vue2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoMoneyToRaisePigs/rspack-vue2/issues"
+  },
+  "homepage": "https://github.com/NoMoneyToRaisePigs/rspack-vue2#readme",
+  "dependencies": {
+    "webpack": "^5.96.1"
+  }
+}
